@@ -1,6 +1,6 @@
 {
-  "name": "punnett-square",
-  "version": "2.1.0",
+  "name": "@caspertech/punnett-square",
+  "version": "2.1.1",
   "description": "A Punnett Square Calculator",
   "repository": {
     "type": "git",
@@ -22,18 +22,18 @@
     "lint": "npm run lint:eslint",
     "prepublish": "npm run build",
     "reinstall": "npm run clean && yarn",
-    "test:jest": "NODE_ENV=test jest --coverage",
-    "test:watch": "NODE_ENV=test jest --coverage --watch",
+    "test:jest": "jest --coverage",
+    "test:watch": "jest --coverage --watch",
     "test": "npm run lint && npm run test:jest"
   },
   "dependencies": {
-    "lodash": "4.17.4"
+    "lodash": "4.17.11"
   },
   "devDependencies": {
-    "babel-cli": "6.24.1",
+    "babel-cli": "6.26.0",
     "babel-eslint": "7.2.1",
     "babel-plugin-transform-strict-mode": "6.24.1",
-    "babel-preset-env": "1.3.3",
+    "babel-preset-env": "1.7.0",
     "babel-preset-stage-1": "6.24.1",
     "eslint": "3.19.0",
     "eslint-config-airbnb-base": "11.1.3",
